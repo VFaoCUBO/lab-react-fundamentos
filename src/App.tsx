@@ -1,8 +1,8 @@
-import Contador from "./exercicio-useState/Contador";
+import {Contador} from "./exercicio-useState/Contador";
 
 function App() {
  return
-    <Contador />
+    <Contador/>
  
 }
 
