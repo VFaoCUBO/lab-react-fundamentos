@@ -1,10 +1,10 @@
-import { useState } from 'react'
-import './App.css'
+import Contador from "./exercicio-useState/Contador";
+
 
 function App() {
- return{
-
- }
+ return
+    <Contador />
+ 
 }
 
-export default App
+export default App;
