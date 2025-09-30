@@ -1,4 +1,4 @@
-import Contador from "./exercicio-useState/Contador";
+import Contador from "./exercicio-useState/contador";
 
 
 function App() {
