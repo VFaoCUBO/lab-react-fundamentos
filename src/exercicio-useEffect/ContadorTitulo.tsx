@@ -9,8 +9,8 @@ export default function ContadorTitulo() {
     <div>
       <h2>Contador com Título</h2>
       <p>Valor atual: {contador}</p>
-      <button onClick={() => setContador(c => c + 1)}>Incrementar</button>
-      <button onClick={() => setContador(c => c - 1)}>Decrementar</button>
+      <button onClick={() => setContador(contador + 1)}>Incrementar</button>
+      <button onClick={() => setContador(contador - 1)}>Decrementar</button>
     </div>
   );
 }
