@@ -1,1 +1,4 @@
-<h2>Página contato</h2>
+export default function Contato() {
+    return <h2>Página Contato</h2>;
+  }
+  

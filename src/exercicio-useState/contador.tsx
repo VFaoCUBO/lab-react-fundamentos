@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export function Contador() {
+export default function Contador() {
   const [contador, setContador] = useState<number>(0);
 
   return (

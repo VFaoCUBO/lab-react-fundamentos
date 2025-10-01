@@ -5,7 +5,7 @@ import Sobre from "./exercicio-router/Sobre";
 import Contato from "./exercicio-router/Contato";
 
 function App() {
- return
+ return(
  <BrowserRouter>
  <nav style={{ display: "flex", gap: 10 }}>
    <Link to="/">Início</Link>
@@ -19,6 +19,7 @@ function App() {
    <Route path="/contato" element={<Contato />} />
  </Routes>
 </BrowserRouter>
+    );
 }
 
 export default App;

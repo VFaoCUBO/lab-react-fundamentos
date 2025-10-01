@@ -1,1 +1,4 @@
-<h2>Sobre</h2>
+export default function Sobre() {
+    return <h2>Página Sobre</h2>;
+  }
+  

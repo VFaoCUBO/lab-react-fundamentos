@@ -1,1 +1,4 @@
-<h2>Página Inicial</h2>
+export default function Inicio() {
+    return <h2>Página Inicial</h2>;
+  }
+  
