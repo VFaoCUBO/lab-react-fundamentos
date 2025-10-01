@@ -3,9 +3,7 @@ import { useState, useEffect } from "react";
 export default function ContadorTitulo() {
   const [contador, setContador] = useState<number>(0);
 
-  useEffect(() => {
-    document.title = `Contador: ${contador}`;
-  }, [contador]);
+  useEffect(() => {document.title = `Contador: ${contador}`;},[contador]);
 
   return (
     <div>
