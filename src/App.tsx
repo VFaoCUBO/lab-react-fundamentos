@@ -23,16 +23,12 @@ function App() {
       </nav>
 
       <Routes>
-        {/* Home */}
         <Route path="/" element={<Home />} />
 
-        {/* Exercício 1: useState */}
         <Route path="/useState" element={<Contador />} />
 
-        {/* Exercício 2: useEffect */}
         <Route path="/useEffect" element={<ContadorTitulo />} />
 
-        {/* Exercício 3: useContext (Provider precisa envolver a rota) */}
         <Route
           path="/useContext"
           element={
@@ -41,8 +37,7 @@ function App() {
             </ThemeProvider>
           }
         />
-
-        {/* Exercício 4: Router com sub-rotas */}
+       
         <Route
           path="/router/*"
           element={
